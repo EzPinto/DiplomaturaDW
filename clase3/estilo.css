@@ -1,0 +1,67 @@
+
+body {
+    background: rgba(9, 163, 168, 0.63);
+    width: 100%;
+    max-width: 1880px;
+    padding-left: 10px;
+}
+
+.cabeza {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.underline {
+    text-decoration: black;
+    text-decoration-line: underline;
+    
+}
+
+.foto {
+    display: block;
+    border-color: black;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    height: 200px; 
+    width: 200px; 
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blue;
+}
+
+.centro {
+    display: flex;
+    justify-content: center;
+    background: rgba(206, 207, 200, 0.466);
+    margin:  10px;
+
+}
+
+.columna {
+    display: block;
+    text-align: left;
+}
+
+/*----------------FORMULARIO--------------*/
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    background: rgba(9, 163, 168, 0.63);
+    width: 100%;
+    max-width: 1880px;
+}
+
+
+.preguntas {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
