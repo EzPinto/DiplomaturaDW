@@ -1,20 +1,28 @@
 
 body {
-    background: rgba(9, 163, 168, 0.63);
+    background-color: black;
+}
+
+.container {
+    background: rgba(9, 163, 168);
     width: 100%;
+    height: auto;
     max-width: 1880px;
-    padding-left: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
 }
 
 .cabeza {
-    display: flex;
-    justify-content: center;
-    
+    width: 300px;
+    height: 300px;  
 }
 
 .underline {
+    font-size: 25px;
+    font-weight: bold;
     text-decoration: black;
     text-decoration-line: underline;
+    justify-content: left;
     
 }
 
@@ -36,16 +44,27 @@ a {
     color: blue;
 }
 
+.bold {
+    font-weight: bold;
+    font-size: 18px;
+}
+
 .centro {
     display: flex;
     justify-content: center;
-    background: rgba(206, 207, 200, 0.466);
-    margin:  10px;
+    text-align: center;
+    width: 50%;
+    background: rgba(255, 255, 254, 0.712);
+    margin:  10px auto;
+    padding: 10px;
+    outline: solid 1px black;
 
 }
 
 .columna {
     display: block;
+    justify-content: left;
+    align-content: left;
     text-align: left;
 }
 
@@ -54,13 +73,14 @@ a {
 .formulario {
     display: flex;
     justify-content: center;
-    background: rgba(9, 163, 168, 0.63);
+    background: rgba(86, 236, 236, 0.705);
     width: 100%;
     max-width: 1880px;
 }
 
 
 .preguntas {
+    margin: 10  auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 
