@@ -1,20 +1,124 @@
+:root {
+
+--aside-color: rgba(255, 255, 254, 0.226);
+--aside-text-color: white;
+
+}
+
 
 body {
+    display: flex;
+    max-width: 1800px;
+    width: 100%;
     background-color: black;
+    font-family: 'Oxygen', sans-serif;
 }
 
 .container {
     background: rgba(9, 163, 168);
-    width: 100%;
+    width: 90%;
     height: auto;
-    max-width: 1880px;
+    max-width: 1780px;
     padding: 10px;
     margin-bottom: 10px;
 }
 
+.titulo {
+    display: flex;
+    width: 200px;
+    margin-left: 25%;
+    justify-content: center;
+    text-align: center;
+    border: solid 2px var(--aside-text-color);
+}
+
+
+.h2-title {
+    width: 70%;
+    padding: 10;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+.logo {
+    width: 30%;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    margin: 10px;
+    border-right: solid 2px var(--aside-text-color);
+}
+
+.container-head {
+    color: var(--aside-text-color);
+    background: rgb(3, 72, 75);
+    width: 90%;
+    height: auto;
+    max-width: 350px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
 .cabeza {
-    width: 300px;
-    height: 300px;  
+    width: 90%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient( to bottom, var(--aside-color), rgba(255, 255, 254, 0.664) );
+    border-radius: 4px;
+    margin:  10px auto;
+    padding: 10px;
+    outline: solid 1px black; 
+}
+
+.info  {
+    width: 90%;
+    height: 300px;
+    display: block;
+    justify-content: center;
+    background: linear-gradient( to bottom, var(--aside-color), rgba(255, 255, 254, 0.685) );
+    border-radius: 4px;
+    margin:  10px auto;
+    padding: 10px;
+    outline: solid 1px black;  
+}
+
+.contacto  {
+    width: 90%;
+    height: 300px;
+    display: block;
+    justify-content: center;
+    background: linear-gradient( to bottom, var(--aside-color), rgba(255, 255, 254, 0.692) );
+    border-radius: 4px;
+    margin:  10px auto;
+    padding: 10px;
+    outline: solid 1px black; 
+}
+
+.lista-contacto {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    border-radius: 4px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.conocimientos {
+    width: 90%;
+    height: 300px;
+    display: block;
+    justify-content: center;
+    background: linear-gradient( to bottom, var(--aside-color), rgba(255, 255, 254, 0.692) );
+    border-radius: 4px;
+    margin:  10px auto;
+    padding: 10px;
+    outline: solid 1px black;  
 }
 
 .underline {
@@ -53,8 +157,10 @@ a {
     display: flex;
     justify-content: center;
     text-align: center;
-    width: 50%;
-    background: rgba(255, 255, 254, 0.712);
+    width: 90%;
+    box-shadow:  2px 2px 10px black;
+    border-radius: 4px;
+    background: linear-gradient(to right, rgba(255, 255, 254, 0.712), rgba(5, 9, 51, 0.568));
     margin:  10px auto;
     padding: 10px;
     outline: solid 1px black;
@@ -66,6 +172,10 @@ a {
     justify-content: left;
     align-content: left;
     text-align: left;
+}
+
+.clarito {
+    color: rgba(128, 128, 126, 0.637)
 }
 
 /*----------------FORMULARIO--------------*/
