@@ -1,0 +1,30 @@
+.contenedor {
+    width: 1000px;
+    height: 200px;
+    background: rgba(172, 189, 174, 0.664);
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    border: solid 2px black;
+}
+
+.rojo {
+    background: red;
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+}
+
+.azul  {
+    background: blue;   
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+}
+
+.verde {
+    background:green;
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+}
