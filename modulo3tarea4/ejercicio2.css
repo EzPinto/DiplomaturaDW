@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+  }
+  
+  .caja{
+    width: auto;
+  }
+
+  #contador {
+      width: 40px;
+      border: 2px solid black;
+  }
+  
+  textarea{
+    resize: none;
+    width: 600px;
+    height: 200px;
+  }

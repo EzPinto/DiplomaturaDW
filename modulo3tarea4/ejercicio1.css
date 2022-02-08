@@ -1,0 +1,53 @@
+#contenedor {
+    display: flex;
+    justify-content: space-around;
+    background-color: #ffff;
+}
+
+.cuadrado {
+    width: 200px;
+    height: 200px;
+}
+
+.rojo   {
+    background-color: red;
+}
+
+.rojo:hover {
+    background-color: rgba(133, 0, 0, 0.801);
+}
+
+.violeta {
+    background-color: violet;
+}
+
+.violeta:hover {
+    background-color: rgba(102, 0, 133, 0.801);
+}
+
+.azul {
+    background-color: blue;
+}
+
+.azul:hover {
+    background-color: rgba(0, 0, 133, 0.842);
+}
+
+.blanco {
+    background-color: white;
+    color: black;
+}
+
+.blanco:hover {
+    background-color: rgba(99, 99, 99, 0.842);
+}
+
+button {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    
+}
